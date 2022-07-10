@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Smoke tests" parallel="classes">
+    <test name="Sum tests">
+        <classes>
+            <class name="org.example.test.SumTests"/>
+        </classes>
+    </test>
+    <test name="Subtraction tests">
+        <classes>
+            <class name="org.example.test.SubtractionTests"/>
+        </classes>
+    </test>
+    <test name="Multiplication test">
+        <classes>
+            <class name="org.example.test.MultiplicationTests"/>
+        </classes>
+    </test>
+    <test name="Division tests">
+        <classes>
+            <class name="org.example.test.DivisionTests"/>
+        </classes>
+    </test>
+</suite>
