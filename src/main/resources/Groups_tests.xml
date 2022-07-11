@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Groups tests">
+    <test name="Groups tests">
+        <groups>
+            <run>
+                <include name="Tests with negative numbers"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.example.test.DivisionTests"/>
+            <class name="org.example.test.MultiplicationTests"/>
+            <class name="org.example.test.SubtractionTests"/>
+            <class name="org.example.test.SumTests"/>
+        </classes>
+    </test>
+</suite>
