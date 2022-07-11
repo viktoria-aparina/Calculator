@@ -23,6 +23,4 @@ public class DataProviderTests extends BaseTest {
     public void sumTests(int a, int b, int expectedResult) {
         assertEquals(calculator.sum(a, b), expectedResult, "The result of summation is wrong");
     }
-
-
 }
