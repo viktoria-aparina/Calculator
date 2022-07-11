@@ -27,5 +27,4 @@ public class BaseTest {
     public void afterSuite() {
         System.out.println("This text will appear after suite");
     }
-
 }
